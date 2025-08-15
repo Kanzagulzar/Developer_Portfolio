@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <div class="logo">My Portfolio</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="downloadPDF" class="email-btn">Download Portfolio as PDF</button>
+
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>Kanza-tul-Islam</h1>
+  <p>Full Stack Developer | App Developer</p>
+</section>
+
+<!-- About -->
+<section id="about" class="container">
+  <h2>About Me</h2>
+  <p></p>Hi, I’m Kanza-tul-Islam, a passionatedeveloper with a knack for turning ideas into interactive, user-friendly applications.
+Over the past few years, I’ve worked on different toolbox like HTML, CSS, JavaScript, PHP, Python, Django, Flask, React, Next.js, Node.js, Express.js, and MongoDB, along with experience in integrating APIs, managing databases, and applying data science techniques. 
+
+I’m comfortable moving between frontend and backend development, which means I can handle everything from crafting clean, responsive interfaces to securing databases and optimizing server-side logic. </p>
+</section>
+
+<section id="roles" class="container">
+  <h2>What I Do</h2>
+  <div class="card-grid">
+    <div class="card">
+      <i class="fas fa-paint-brush fa-3x"></i>
+      <h3>Frontend Developer</h3>
+    </div>
+    <div class="card">
+      <i class="fas fa-layer-group fa-3x"></i>
+      <h3>Full-stack Developer</h3>
+    </div>
+    <div class="card">
+      <i class="fab fa-wordpress fa-3x"></i>
+      <h3>WordPress Developer</h3>
+    </div>
+    <div class="card">
+      <i class="fas fa-mobile-alt fa-3x"></i>
+      <h3>App Developer</h3>
+    </div>
+    <div class="card">
+      <i class="fas fa-vials"></i>
+      <h3>SQA Automation</h3>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="container">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <!-- Frontend -->
+    <div class="skill-card">
+      <i class="fab fa-html5"></i>
+      <p>HTML5</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-css3-alt"></i>
+      <p>CSS3</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-js"></i>
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-react"></i>
+      <p>React</p>
+    </div>
+    <!-- Backend -->
+    <div class="skill-card">
+      <i class="fab fa-node-js"></i>
+      <p>Node.js</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-python"></i>
+      <p>Django</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-laravel"></i>
+      <p>Laravel</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-flask"></i>
+      <p>Flask</p>
+    </div>
+    <!-- Tools -->
+    <div class="skill-card">
+      <i class="fab fa-git-alt"></i>
+      <p>Git</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-database"></i>
+      <p>SQLAlchemy</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-tasks"></i>
+      <p>Jira</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-vials"></i>
+      <p>SQA</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-bug"></i>
+      <p>JMeter</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-shield-alt"></i>
+      <p>OWASP ZAP</p>
+    </div>
+    <!-- Vercel Deployment -->
+<div class="skill-card">
+  <i class="fas fa-rocket"></i>
+  <p>Vercel Deployment</p>
+</div>
+
+<!-- Technical Documentation -->
+<div class="skill-card">
+  <i class="fas fa-file-alt"></i>
+  <p>Technical Documentation</p>
+</div>
+
+  </div>
+</section>
+
+
+
+<!-- Projects -->
+<section id="projects" class="container">
+  <h2>Projects</h2>
+  <div class="card-grid">
+    <!-- Project 1 -->
+    <div class="card" data-project="1">
+     
+      <h3>Ride-Sharing Web Application</h3>
+      <p>Full-featured multi-role ride booking platform — customers, drivers & admins
+A scalable ride-booking web app inspired by Uber. Customers can request rides, drivers receive requests, and admins oversee operations. Google Maps powers routing and ETA calculations. Built to be extensible with future payment and rating features.</p>
+<button class="expand-btn" data-project="1">Expand</button>   
+</div>
+    <!-- Project 2 -->
+    <div class="card" data-project="2">
+      
+      <h3>Job Listing Web Application (Scraper + Frontend)</h3>
+      <p>End-to-end platform that scrapes job listings and displays them via a modern frontend
+A full-stack job listing app that uses an automated Selenium scraper to fetch live job data (ActuaryList.com). The Flask backend exposes a REST API; a React frontend consumes the API for a responsive browsing experience.</p>
+<button class="expand-btn" data-project="1">Expand</button>   
+</div>
+    <!-- Project 3 -->
+    <div class="card" data-project="3">
+      
+      <h3>Personalized Health & Diet Recommendation System</h3>
+      <p>Secure BMI-based diet planner with role management and visualizations
+Flask application that collects user profiles, calculates BMI, stores AES-encrypted sensitive fields, and recommends diet & exercise plans. It supports Excel import/sync and data visualization with Matplotlib.</p>
+<button class="expand-btn" data-project="1">Expand</button>   
+</div>
+    <!-- Project 4 -->
+    <div class="card" data-project="4">
+      
+      <h3>Crime Data Analysis & Visualization</h3>
+      <p>Exploratory analysis and plotted insights from crime call records
+Python & pandas processing with Matplotlib/Seaborn visuals to highlight trends, peak times, and geospatial hotspots. Built notebooks and exported visual reports.</p>
+<button class="expand-btn" data-project="1">Expand</button>   
+</div>
+  </div>
+</section>
+
+<!-- Work -->
+<section id="work" class="container">
+  <h2>Work</h2>
+  <div class="card-grid">
+    <!-- Work 1 -->
+    <div class="card" data-work="1">
+      
+      <h3>Wordpress Developer</h3>
+      <p>Laskon Tech</p>
+      <button class="expand-btn" data-work="1">Expand</button>
+    </div>
+    <!-- Work 2 -->
+    <div class="card" data-work="2">
+     
+      <h3>Marketing Assistant</h3>
+      <p>TriSynk Estimate</p>
+      <button class="expand-btn" data-work="1">Expand</button>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="container">
+  <h2>Contact</h2>
+
+  <!-- Social Links -->
+  <div class="contact-links">
+    <a href="https://www.linkedin.com/in/kanza-tul-islam" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/Kanzagulzar" target="_blank">
+     
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="mailto:kanzagulzar582@gmail.com">
+      <i class="fas fa-envelope"></i> Email Me
+    </a>
+  </div>
+
+  <!-- Email Address -->
+  <p class="email-text">📧 kanzagulzar582@gmail.com</p>
+</section>
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Kanza-tul-Islam. All Rights Reserved.
+</footer>
+
+<!-- Project Modals -->
+<div id="project-modal-1" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>Ride-Sharing Web Application</h2>
+      <div class="meta">Full-featured multi-role ride booking platform — customers, drivers & admins</div>
+      <p class="desc">A scalable ride-booking web app inspired by Uber. Customers can request rides, drivers receive requests, and admins oversee operations. Google Maps powers routing and ETA calculations. Built to be extensible with future payment and rating features.</p>
+
+      <h3>Tech Stack</h3>
+      <table>
+        <tr><th>Layer</th><th>Tools Used</th></tr>
+        <tr><td>Frontend</td><td>HTML, CSS, JavaScript, Bootstrap</td></tr>
+        <tr><td>Backend</td><td>PHP (REST-style routes)</td></tr>
+        <tr><td>Database</td><td>MySQL</td></tr>
+        <tr><td>APIs</td><td>Google Maps API, Geolocation API</td></tr>
+        <tr><td>Dev Tools</td><td>XAMPP, Postman, VS Code</td></tr>
+      </table>
+
+      <h3>Architecture</h3>
+      <pre>
+HTML/CSS/JS Frontend (Bootstrap UI)
+        |
+        ↓
+PHP Backend (Ride Management & Auth)
+        |
+        ↓
+MySQL Database (Users, Rides, Payments)
+        ↑
+Google Maps & Geolocation APIs
+      </pre>
+
+ <h3>Project Highlights</h3>
+      <ul>
+        <li>Multi-role dashboards: Admin, Driver, Customer.</li>
+        <li>Live location tracking, route mapping, and fare estimates using Google Maps.</li>
+        <li>Driver availability and nearest-driver assignment logic.</li>
+        <li>Admin tools for ride moderation and user management.</li>
+      </ul>
+
+     <div class="screenshots" aria-hidden="false">
+  <div class="screenshots" aria-hidden="false">
+  <div class="shot">
+    <img data-full="drive1.jpg" src="drive1.jpg" alt="Ride screenshot 1">
+  </div>
+  <div class="shot">
+    <img data-full="drive2.png" src="drive2.png" alt="Ride screenshot 2">
+  </div>
+  <div class="shot">
+    <img data-full="drive3.jpg" src="drive3.jpg" alt="Ride screenshot 3">
+  </div>
+  <div class="shot">
+    <img data-full="drive4.png" src="drive4.png" alt="Ride screenshot 4">
+  </div>
+
+  <div class="shot">
+    <img data-full="drive5.png" src="drive5.png" alt="Ride screenshot 5">
+  </div>
+  <div class="shot">
+    <img data-full="drive6.jpg" src="drive6.jpg" alt="Ride screenshot 6">
+  </div>
+</div>~
+</div>
+
+  </div>
+</div>
+
+<div id="project-modal-2" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+     <h2>Job Listing Web Application (Scraper + Frontend)</h2>
+      <div class="meta">End-to-end platform that scrapes job listings and displays them via a modern frontend</div>
+      <p class="desc">A full-stack job listing app that uses an automated Selenium scraper to fetch live job data (ActuaryList.com). The Flask backend exposes a REST API; a React frontend consumes the API for a responsive browsing experience.</p>
+
+      <h3>Tech Stack</h3>
+      <table>
+        <tr><th>Layer</th><th>Tools Used</th></tr>
+        <tr><td>Frontend</td><td>React, Axios, CSS Modules</td></tr>
+        <tr><td>Backend</td><td>Flask, SQLAlchemy, Marshmallow</td></tr>
+        <tr><td>Database</td><td>SQLite (local), SQLAlchemy ORM</td></tr>
+        <tr><td>Scraper</td><td>Python, Selenium, ChromeDriver</td></tr>
+        <tr><td>Dev Tools</td><td>Vercel (frontend), Postman, VS Code</td></tr>
+      </table>
+
+      <h3>Architecture</h3>
+      <pre>
+React Frontend (Vercel)
+        |
+        ↓
+Flask REST API (local backend)
+        |
+        ↓
+SQLite Database
+        ↑
+Selenium Scraper (ActuaryList.com)
+      </pre>
+
+      <h3>Project Highlights</h3>
+      <ul>
+        <li>Automated scraper that keeps job listings current without manual input.</li>
+        <li>REST API supports filtering, pagination and sorting for flexible front-end queries.</li>
+       <li>Design enables swapping data source or moving backend to cloud with minimal changes.</li>
+      </ul>
+
+           <div class="screenshots" aria-hidden="false">
+  <div class="screenshots" aria-hidden="false">
+  <div class="shot">
+    <img data-full="job6.png" src="job6.png" alt="Ride screenshot 1">
+  </div>
+  <div class="shot">
+    <img data-full="job4.png" src="job4.png" alt="Ride screenshot 2">
+  </div>
+  <div class="shot">
+    <img data-full="job7.png" src="job7.png" alt="Ride screenshot 3">
+  </div>
+  <div class="shot">
+    <img data-full="jobb.png" src="jobb.png" alt="Ride screenshot 4">
+  </div>
+
+  <div class="shot">
+    <img data-full="job1.png" src="job1.png" alt="Ride screenshot 5">
+  </div>
+  <div class="shot">
+    <img data-full="job2.png" src="job2.png" alt="Ride screenshot 6">
+  </div>
+</div>
+
+</div>
+</div>
+  </div>
+</div>
+
+<div id="project-modal-3" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+     <h2>Personalized Health & Diet Recommendation System</h2>
+      <div class="meta">Secure BMI-based diet planner with role management and visualizations</div>
+      <p class="desc">Flask application that collects user profiles, calculates BMI, stores AES-encrypted sensitive fields, and recommends diet & exercise plans. It supports Excel import/sync and data visualization with Matplotlib.</p>
+
+      <h3>Tech Stack</h3>
+      <table>
+        <tr><th>Layer</th><th>Tools Used</th></tr>
+        <tr><td>Frontend</td><td>HTML, CSS, Bootstrap</td></tr>
+        <tr><td>Backend</td><td>Flask, Python</td></tr>
+        <tr><td>Database</td><td>SQLite</td></tr>
+        <tr><td>Security</td><td>AES Encryption, Hashed Passwords</td></tr>
+        <tr><td>Dev Tools</td><td>VS Code, Excel</td></tr>
+      </table>
+
+      <h3>Architecture</h3>
+      <pre>
+Bootstrap Frontend
+        |
+        ↓
+Flask Backend (Auth, Recommendations)
+        |
+        ↓
+SQLite Database
+      </pre>
+Bootstrap Frontend
+        |
+        ↓
+Flask Backend (Auth, Recommendations)
+        |
+        ↓
+SQLite Database
+      </pre>
+
+      <h3>Project Highlights</h3>
+      <ul>
+        <li>Dynamic diet plans tailored to BMI and user goals.</li>
+        <li>Sensitive fields encrypted with AES; passwords hashed.</li>
+        <li>Visual dashboards built with Matplotlib for quick insights.</li>
+      </ul>
+
+      <div class="screenshots" aria-hidden="false">
+  <div class="screenshots" aria-hidden="false">
+  <div class="shot">
+    <img data-full="diet3.png" src="diet3.png" alt="Ride screenshot 1">
+  </div>
+  <div class="shot">
+    <img data-full="diet2png.png" src="diet2png.png" alt="Ride screenshot 2">
+  </div>
+  <div class="shot">
+    <img data-full="diet1.png" src="diet1.png" alt="Ride screenshot 3">
+  </div>
+  <div class="shot">
+    <img data-full="diet4.png" src="diet4.png" alt="Ride screenshot 4">
+  </div>
+  <div class="shot">
+    <img data-full="diet5.png" src="diet5.png" alt="Ride screenshot 5">
+  </div>
+</div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div id="project-modal-4" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>Crime Data Analysis & Visualization</h2>
+      <div class="meta">Exploratory analysis and plotted insights from crime call records</div>
+      <p class="desc">Python & pandas processing with Matplotlib/Seaborn visuals to highlight trends, peak times, and geospatial hotspots. Built notebooks and exported visual reports.</p>
+
+      <h3>Tech Stack</h3>
+      <table>
+        <tr><th>Layer</th><th>Tools Used</th></tr>
+        <tr><td>Data Processing</td><td>Python, Pandas</td></tr>
+        <tr><td>Visualization</td><td>Matplotlib, Seaborn</td></tr>
+        <tr><td>Environment</td><td>Jupyter Notebook</td></tr>
+      </table>
+
+      <h3>Highlights</h3>
+      <ul>
+        <li>Time-series and hotspot analysis of crime call data.</li>
+        <li>Charts and dashboards for quick decision-making.</li>
+        <li>Reusable preprocessing pipeline for new datasets.</li>
+      </ul>
+
+         <div class="screenshots" aria-hidden="false">
+  <div class="screenshots" aria-hidden="false">
+  
+
+  <div class="shot">
+    <img data-full="kegglee.png" src="kegglee.png" alt="Ride screenshot 5">
+  </div>
+</div>
+</div>
+  </div>
+</div>
+
+<!-- Work Modals -->
+<div id="work-modal-1" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>Wordpress Developer - Laskon Tech.</h2>
+    <p>June 2025 </p>
+    <p>Helped them with setting up wordpress environment.</p>
+    <p>Worked with plugings</p>
+    <p>Removed junks from website</p>
+  </div>
+</div>
+
+<div id="work-modal-2" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>Marketing Assistant - TriSynk Estimate</h2>
+    <p>August 2025 – Present</p>
+    <p>Working with them on email campaigns and salesforce</p>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+document.querySelectorAll('[data-project]').forEach(card => {
+  card.addEventListener('click', () => {
+    const projectId = card.getAttribute('data-project');
+    document.getElementById(`project-modal-${projectId}`).style.display = 'block';
+  });
+});
+
+document.querySelectorAll('[data-work]').forEach(card => {
+  card.addEventListener('click', () => {
+    const workId = card.getAttribute('data-work');
+    document.getElementById(`work-modal-${workId}`).style.display = 'block';
+  });
+});
+
+document.querySelectorAll('.close-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.closest('.modal').style.display = 'none';
+  });
+});
+
+window.addEventListener('click', (e) => {
+  if (e.target.classList.contains('modal')) {
+    e.target.style.display = 'none';
+  }
+});
+</script>
+
+<script>
+document.getElementById('downloadPDF').addEventListener('click', () => {
+    // Select the part of the page you want as PDF
+    const element = document.body; // you can replace with document.getElementById('container-id')
+
+    // PDF options
+    const options = {
+        margin:       0.5,
+        filename:     'Kanza_Tul_Islam_Portfolio.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Generate PDF
+    html2pdf().set(options).from(element).save();
+});
+</script>
+
+
+</body>
+</html>
